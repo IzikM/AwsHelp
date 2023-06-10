@@ -23,7 +23,7 @@ export class AwsHelp {
         lim > 0 &&
         started &&
         line.replace("*", "").trim() !== "" &&
-        line.trim() !== "help" &&
+        line.replace("*", "").trim() !== "help" &&
         line.trim() !== "" &&
         line !== "Available Services" &&
         line.trim() !== " "
@@ -60,7 +60,7 @@ export class AwsHelp {
       var line = lines[l].trim();
       if (
         line !== "" &&
-        line.trim() !== "help" &&
+        line.replace("*", "").trim() !== "help" &&
         line.replaceAll("*", "").trim() !== ""
       ) {
         if (line === "Available Commands") {
