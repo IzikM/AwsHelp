@@ -25,4 +25,4 @@ Izik
 5. Run "npm start"  
    Be patient - it takes a while to perform more than 1000 invocations of the cli.  
   
-6. Enjoy - the list is in the file
+6. Enjoy - the list is in the file theCommands.json
